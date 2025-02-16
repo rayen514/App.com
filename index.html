@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BluskG - Decentralized Secure Social Network</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #0f172a;
+            color: #f8fafc;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .header {
+            padding: 4rem 0;
+            background: linear-gradient(135deg, #1e40af 0%, #0f172a 100%);
+            margin-bottom: 3rem;
+            animation: fadeIn 1.5s;
+            position: relative;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+        }
+
+        .creator {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-top: 0.5rem;
+            color: #60a5fa;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 4rem;
+        }
+
+        .feature-card {
+            background: #1e293b;
+            padding: 2rem;
+            border-radius: 15px;
+            transition: transform 0.3s;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .icon {
+            font-size: 2.5rem;
+            color: #60a5fa;
+            margin-bottom: 1rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: linear-gradient(90deg, #2563eb 0%, #1d4ed8 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: transform 0.3s;
+            margin-top: 2rem;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .security-badge {
+            background: #14532d;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            display: inline-block;
+            margin: 1rem 0;
+        }
+
+        .footer {
+            background: #1e293b;
+            padding: 2rem;
+            margin-top: 4rem;
+        }
+
+        .footer p {
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <h1>BluskG Social Platform</h1>
+            <p class="creator">Med Rayen Bouazizi - The Only Developer and Creator</p>
+            <p class="security-badge">Military-Grade Encryption 🔒</p>
+            <h2>Your Freedom, Our Priority</h2>
+            <p>Decentralized communication platform with unprecedented security</p>
+            <a href="https://flex-roan.vercel.app/bluskG" class="cta-button">
+                Join Free Now <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="features">
+            <div class="feature-card">
+                <i class="fas fa-shield-alt icon"></i>
+                <h3>Quantum-Resistant Encryption</h3>
+                <p>Advanced AES-256 + RSA-4096 hybrid encryption ensures your messages remain private, even from governments and service providers.</p>
+            </div>
+
+            <div class="feature-card">
+                <i class="fas fa-network-wired icon"></i>
+                <h3>Decentralized Network</h3>
+                <p>No central servers! Data distributed through global node network using blockchain-inspired sharding technology.</p>
+            </div>
+
+            <div class="feature-card">
+                <i class="fas fa-user-secret icon"></i>
+                <h3>Absolute Anonymity</h3>
+                <p>Zero personal data collection. Anonymous accounts protected by cryptographic proofs instead of personal information.</p>
+            </div>
+        </div>
+
+        <div class="feature-card">
+            <h2>Technical Innovation</h2>
+            <p>🔐 **End-to-End Encryption**: Each message encrypted with unique session keys</p>
+            <p>🌐 **Distributed Storage**: Data fragments stored across multiple continents</p>
+            <p>⚡ **Self-Destructing Messages**: Optional timed deletion with proof-of-destruction</p>
+            <p>🛡️ **Anti-Surveillance Protocol**: Obfuscated metadata and Tor routing</p>
+        </div>
+
+        <div style="text-align: center; margin: 4rem 0;">
+            <h2>Your Voice Matters</h2>
+            <p>Express yourself freely without fear of censorship or surveillance</p>
+            <p>Created by **Med Rayen Bouazizi - Privacy Advocate & Developer**</p>
+            <a href="https://flex-roan.vercel.app/bluskG" class="cta-button">
+                Claim Your Digital Freedom Now
+            </a>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>BluskG - Created & Developed by <strong>Med Rayen Bouazizi</strong></p>
+        <p>All rights reserved © 2025</p>
+    </div>
+</body>
+</html>
